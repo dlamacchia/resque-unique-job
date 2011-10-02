@@ -1,4 +1,4 @@
-require 'lib/resque/plugins/unique_job/version'
+require File.expand_path('../lib/resque/plugins/unique_job/version', __FILE__)
 
 Gem::Specification.new do |s|
   s.name              = 'resque-unique-job'
